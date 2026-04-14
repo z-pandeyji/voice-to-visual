@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./outputs:/outputs
+      - ./activity.log:/activity.log
+    environment:
+      - OUTPUTS_DIR=/outputs
+      - LOG_FILE=/activity.log
+      - WHISPER_MODEL_SIZE=base
+      - IMAGE_MODEL_ID=runwayml/stable-diffusion-v1-5
+      - VIDEO_MODEL_ID=damo-vilab/text-to-video-ms-1.7b
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        - NEXT_PUBLIC_API_URL=http://localhost:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped

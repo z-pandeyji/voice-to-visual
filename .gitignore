@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Pytest
+.pytest_cache/
+.pytest_tmp/
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+
+# IDE/Tools
+.vscode/
+.idea/
+.claude/
+
+# Outputs & Temp
+outputs/
+temp_*.webm
+77
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific ignores
+core_pipeline_detail.svg
+doc1.md 
+project_folder_structure.svg  
+voice_to_image_overview.svg 
+models/
+docs/
+
+# Ignore markdown docs from frontend if needed
+frontend/*.md

@@ -1,0 +1,27 @@
+[
+  {
+    "use_case": "Product Mockup",
+    "raw": "a wireless headphone on a white background",
+    "expected_quality_keywords": ["studio", "light", "product", "clean", "sharp"]
+  },
+  {
+    "use_case": "Social Media Post",
+    "raw": "morning coffee flat lay",
+    "expected_quality_keywords": ["aesthetic", "overhead", "warm", "cozy", "bokeh"]
+  },
+  {
+    "use_case": "Ad Creative",
+    "raw": "woman using a laptop in a modern office",
+    "expected_quality_keywords": ["professional", "natural light", "cinematic", "sharp"]
+  },
+  {
+    "use_case": "Brand Concept",
+    "raw": "minimal tech startup logo blue and white",
+    "expected_quality_keywords": ["clean", "vector", "minimal", "modern", "geometric"]
+  },
+  {
+    "use_case": "Real Estate",
+    "raw": "modern living room with natural sunlight",
+    "expected_quality_keywords": ["interior", "bright", "photorealistic", "warm", "cozy"]
+  }
+]

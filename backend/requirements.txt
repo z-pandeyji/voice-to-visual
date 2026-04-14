@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+openai-whisper
+torch
+diffusers[torch]
+transformers
+accelerate
+requests
+Pillow
+imageio[ffmpeg]
+pytest>=7.0
+pytest-asyncio
+httpx
+websockets
