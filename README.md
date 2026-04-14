@@ -2,7 +2,7 @@
 
 > Speak your idea. Watch an AI pipeline transcribe, enhance, and generate an image or video — live.
 
-<!-- ![Demo](demo/demo.gif) -->
+![Demo](demo/demo.gif)
 
 ---
 
